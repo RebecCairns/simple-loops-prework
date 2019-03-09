@@ -11,7 +11,7 @@ def loop_iterator(number_of_times)
 end
 
 def times_iterator(num)
-  num.times 
+  num.times do
   phrase = "Welcome to Flatiron School's Web Development Course!"
 end
 
