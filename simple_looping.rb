@@ -28,8 +28,9 @@ end
 def until_iterator(number)
   count = 1
   while count <= number 
-  puts "Welcome to Flatiron School's Web Development Course!"
-
+     puts "Welcome to Flatiron School's Web Development Course!"
+     count += 1 
+  end
 end
 
 def for_iterator(number_of_times)
