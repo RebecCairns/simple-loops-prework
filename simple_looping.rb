@@ -1,5 +1,3 @@
-# REMEMBER: print your output to the terminal using 'puts'
-
 def loop_iterator(number_of_times)
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer 
@@ -12,17 +10,18 @@ def loop_iterator(number_of_times)
   
 end
 
-def times_iterator(number_of_times)
-  # code your solution here using the "times" keyword
+def times_iterator(num)
+  num.times 
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  
 end
 
 def while_iterator(number_of_times)
-  # code your solution here using the "while" keyword
-  # hint: user a counter to tell the while loop when to stop!
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  count = 1
+  phrase = "Welcome to Flatiron School's Web Development Course!\n"
+  while count <= number_of_times
+     puts phrase
+     count += 1 
+  end 
 end
 
 def until_iterator(number_of_times)
